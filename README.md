@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ##Deployed Link
-
+https://nemsnotetaker.herokuapp.com/notes
 
 ## Description
 
@@ -12,7 +12,7 @@ This application works as an introduction to backend development. We are present
 ## Table of Contents
 
 - [Note Taker](#team-profile-generator)
-  - [Deployment Link](#Deployment-Link)
+  - [Deployed Link](#Deployed-Link)
   - [Description](#description)
   - [Table of Contents](#table-of-contents)
   - [User Story](#user-story)
