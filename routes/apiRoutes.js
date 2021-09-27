@@ -32,6 +32,7 @@ module.exports = (app) => {
     }
   });
 
+  // Deleting notes
   app.delete("/api/notes/:id", function (req, res) {
     try {
       let noteToDelete = req.params.id;
@@ -46,7 +47,7 @@ module.exports = (app) => {
       }
       newNotes = JSON.stringify(storedNotes);
 
-      fs.writeFile(".//db/db.json", newNotes, "utf8", function (err) {
+      fs.writeFile("./db/db.json", newNotes, "utf8", function (err) {
         if (err) throw err;
       });
 
